@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+  gap: 20px;
+  padding: 16px;
+  font-family: "Lato", sans-serif;
+}
+h1 {
+  width: 100%;
+  text-align: center;
+  padding: 16px;
+  max-width: 1000px;
+}
+.container {
+  display: flex;
+  gap: 20px;
+}
+aside {
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 16px;
+}
+main {
+  width: 800px;
+
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 16px;
+}
+button {
+  cursor: pointer;
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid #506ad4;
+  padding: 16px;
+  font-size: 1em;
+  transition: 0.2s ease;
+}
+button:hover {
+  background-color: #506ad4;
+  color: white;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  border-bottom: 1px solid #506ad4;
+  padding: 16px;
+  text-align: center;
+  font-size: 1.5em;
+}
+td,
+table {
+  padding: 16px;
+  text-align: center;
+}
+tfoot td {
+  font-size: 1.2em;
+  font-weight: bold;
+  box-shadow: 2px 2px 24px rgba(0, 0, 0, 0.2);
+}
