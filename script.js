@@ -85,7 +85,7 @@ function calculateWealth() {
 
     tableFoot.innerHTML =
         `<tr>
-   <td>Total Wealth:</td>
+   <td class>Total Wealth:</td>
    <td>$ ${formatMoney(wealth)}</td>
 </tr>`
 }
